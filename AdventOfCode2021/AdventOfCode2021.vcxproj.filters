@@ -16,9 +16,18 @@
     <Filter Include="Resource Files\Inputs">
       <UniqueIdentifier>{5158dbd7-ab9f-41fc-8d53-ab3b4748e987}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Solutions">
+      <UniqueIdentifier>{d2ead0d2-589c-4bd2-a24f-41ad8824ffc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdventOfCode2021.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneOne.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="OneTwo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,5 +35,16 @@
     <Text Include="Input\One.txt">
       <Filter>Resource Files\Inputs</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OneOne.h">
+      <Filter>Source Files\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="ISolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneTwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

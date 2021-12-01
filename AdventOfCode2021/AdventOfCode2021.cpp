@@ -2,27 +2,19 @@
 //
 
 #include <iostream>
-#include <fstream>
-#include <format>
+
+#include "ISolution.h"
+#include "OneTwo.h"
 
 int main()
 {
     std::cout << "Hello Advent of Code 2021!\n";
 
-    std::fstream infile("Inputs/One.txt");
+    ISolution* current = new OneTwo();
 
-    int previous, next, count = 0;
+    current->Run();
 
-    infile >> previous;
-    while (infile >> next)
-    {
-        if (previous < next)
-            count++;
-
-        previous = next;
-    }
-
-    std::cout << std::format("The solution is: {}.", count) << std::endl << "Press enter to exit application.";
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

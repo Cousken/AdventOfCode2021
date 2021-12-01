@@ -141,9 +141,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdventOfCode2021.cpp" />
+    <ClCompile Include="OneOne.cpp" />
+    <ClCompile Include="OneTwo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input\One.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ISolution.h" />
+    <ClInclude Include="OneOne.h" />
+    <ClInclude Include="OneTwo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
