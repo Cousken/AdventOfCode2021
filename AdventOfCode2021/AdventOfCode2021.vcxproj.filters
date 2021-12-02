@@ -28,11 +28,17 @@
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
     <ClCompile Include="OneTwo.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Two.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Input\One.txt">
+    <Text Include="Inputs\One.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Inputs\Two.txt">
       <Filter>Resource Files\Inputs</Filter>
     </Text>
   </ItemGroup>
@@ -41,9 +47,12 @@
       <Filter>Source Files\Solutions</Filter>
     </ClInclude>
     <ClInclude Include="ISolution.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files\Solutions</Filter>
     </ClInclude>
     <ClInclude Include="OneTwo.h">
+      <Filter>Source Files\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Two.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
