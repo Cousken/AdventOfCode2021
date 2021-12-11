@@ -141,18 +141,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdventOfCode2021.cpp" />
+    <ClCompile Include="ISolution.cpp" />
     <ClCompile Include="OneOne.cpp" />
     <ClCompile Include="OneTwo.cpp" />
+    <ClCompile Include="Three.cpp" />
     <ClCompile Include="Two.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Inputs\One.txt" />
+    <Text Include="Inputs\Three.txt" />
     <Text Include="Inputs\Two.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ISolution.h" />
     <ClInclude Include="OneOne.h" />
     <ClInclude Include="OneTwo.h" />
+    <ClInclude Include="Three.h" />
     <ClInclude Include="Two.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

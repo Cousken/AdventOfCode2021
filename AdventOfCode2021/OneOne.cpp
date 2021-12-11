@@ -7,7 +7,8 @@
 
 void OneOne::Run()
 {
-    std::fstream infile("Inputs/One.txt");
+    auto infile = GetFile("Inputs/One.txt");
+
 
     int previous, next, count = 0;
 

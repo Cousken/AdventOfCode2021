@@ -31,7 +31,13 @@
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
     <ClCompile Include="Two.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Three.cpp">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="ISolution.cpp">
+      <Filter>Source Files\Solutions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,6 +45,9 @@
       <Filter>Resource Files\Inputs</Filter>
     </Text>
     <Text Include="Inputs\Two.txt">
+      <Filter>Resource Files\Inputs</Filter>
+    </Text>
+    <Text Include="Inputs\Three.txt">
       <Filter>Resource Files\Inputs</Filter>
     </Text>
   </ItemGroup>
@@ -53,7 +62,10 @@
       <Filter>Source Files\Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Two.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files\Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Three.h">
+      <Filter>Source Files\Solutions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

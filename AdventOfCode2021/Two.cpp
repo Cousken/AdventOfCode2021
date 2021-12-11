@@ -10,7 +10,7 @@ void Two::Run()
 {
 	std::ifstream infile("Inputs/Two.txt");
 
-	int x = 0, y = 0, value, result;
+	int x = 0, y = 0, aim = 0, value, result;
 
 	std::string input;
 	while (std::getline(infile, input))
@@ -21,14 +21,15 @@ void Two::Run()
 		{
 		case 'f':
 			x += value;
+			y += aim * value;
 			break;
 
 		case 'd':
-			y -= value;
+			aim += value;
 			break;
 
 		case 'u':
-			y += value;
+			aim -= value;
 			break;
 
 		default:

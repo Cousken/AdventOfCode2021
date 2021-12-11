@@ -4,13 +4,13 @@
 #include <iostream>
 
 #include "ISolution.h"
-#include "Two.h"
+#include "Three.h"
 
 int main()
 {
     std::cout << "Hello Advent of Code 2021!\n";
 
-    ISolution* current = new Two();
+    ISolution* current = new Three();
 
     current->Run();
 
